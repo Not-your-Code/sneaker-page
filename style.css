@@ -120,7 +120,7 @@ a:hover{
 .contright{
     margin-top: 80px;
     margin-right: 20px;
-    border: 1px solid black;
+    
     height: 400px;
     padding: 25px;
 }
@@ -175,9 +175,61 @@ a:hover{
     position: absolute;
     top: 422px;
     right:528px;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 17px;
     font-family: var(--font-fam);
     text-decoration: line-through;
     color: var(--dark-grayish-blue);
+}
+
+.btm-wrapper{
+    margin-top: 15px;
+    border: 1px solid black;
+    position: absolute;
+    top: 450px;
+    display: flex;
+    height: 38px;
+    width: 125px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    border-style: none;
+    background-color: hsla(220, 14%, 75% , 0.2);
+}
+.count{
+    font-family: var(--font-fam);
+    font-weight: bold;
+    margin: 0px 15px 0px 15px;
+    user-select: none;
+}
+.act{
+    cursor:pointer;
+    user-select: none;
+}
+.addtocart{
+    border: 1px solid red;
+    position: absolute;
+    top: 466px ;
+    right: 249px;
+    display: flex;
+    height: 38px;
+    width: 170px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border-style:none ;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 15px;
+}
+.add-to{
+    font-family: var(--font-fam);
+    font-size: 11px;
+}
+#ct1{
+    position: absolute;
+    top: 7px;
+    right: 108px;
 }
