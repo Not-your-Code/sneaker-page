@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lato:ital,wght@0,700;1,300&family=Playfair+Display:wght@500&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,700;1,300&family=Playfair+Display:wght@500&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+* , *::after , *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-grayish-blue: hsl(219, 9%, 45%);
+    --Grayish-blue: hsla(220, 14%, 75% , 0.4);
+    --font-fam: 'Kumbh Sans', sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px  solid var(--Grayish-blue);
+    padding: 1rem;
+    position:  relative;
+    padding-bottom: 2rem;
+    
+}
+#logo{
+    height: 25px;
+    width: 164px;
+}
+li , a{
+    display: inline-block;
+   list-style-type: none;
+   text-decoration: none;
+   color: var(--dark-grayish-blue);
+   padding-right: 10px;
+   padding-bottom: 20px;
+   font-family: var(--font-fam);
+}
+
+nav{
+position: absolute;
+left: 212px;
+top: 23px;
+font-size: 16px;
+}
+
+#logo1{
+    height: 46px;
+    width: 46px;
+    margin-left: 10px;
+    position: absolute;
+    right: 3px;
+    top:-10px;
+}
+#cart-icon{
+    position: relative;
+}
+ button{
+     position: absolute;
+     top: 5px;
+     right: 73px;
+   background: transparent;
+   border-style: hidden;
+   cursor: pointer;
+}
+button::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: hsl(26, 100%, 55%) ;
+    transition: width  .5s ease;
+}
+button:hover::after{
+    width: 100%;   
+}
+
+a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    
+    background-color: hsl(26, 100%, 55%) ;
+    
+    transition: width .5s ease;
+}
+a:hover::after{
+    width: 100%;   
+}
+a:hover{
+    
+    color: black;
+    font-weight: bold;
+    transition: 100ms ease;
+}
+#cart-no{
+    visibility: hidden;
+    position: absolute;
+    right: 69px;
+    top: -2px;
+    height: 15px;
+    width: 15px;
+    background-color: hsla(26, 100%, 55% , 1);
+    text-align: center;
+    border-radius: 40%;
+    color: white;
+    margin: 1px;
+  z-index: 1;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 400px;
+    width: 100vw;
+}
+.contright{
+    margin-top: 80px;
+    margin-right: 20px;
+    border: 1px solid black;
+    height: 400px;
+    padding: 25px;
+}
+.heading{
+    font-family: var(--font-fam);
+    letter-spacing: 3px;
+    font-weight: bold;
+   color: hsl(26, 100%, 55%);
+   margin-bottom: 10px;
+  
+}
+.sub-head{
+    font-family:'Kumbh Sans', sans-serif; 
+    font-size: 3em;
+}
+.sub-content{
+    font-size: 16px;
+    font-family: var(--font-fam);
+    color: var(--dark-grayish-blue);
+    margin: 10px 0px 15px 0px;
+}
+.price{
+    display: flex;
+     position: absolute;
+    height: 50px;
+    width: 180px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    right: 420px;
+}
+.mainprice{
+    font-family: var(--font-fam);
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 0;
+
+}
+.discount{
+    font-family: var(--font-fam);
+    color: hsla(26, 100%, 55% , 1);
+    background-color:  hsl(25, 100%, 94%);
+  
+    height: 28px;
+    width: 47px;
+    border-radius: 30%;
+    text-align: center;
+    
+
+}
+.mainprice2{
+    position: absolute;
+    top: 422px;
+    right:528px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: var(--font-fam);
+    text-decoration: line-through;
+    color: var(--dark-grayish-blue);
+}
