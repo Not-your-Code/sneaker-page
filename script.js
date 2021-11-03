@@ -14,13 +14,14 @@ changenum = (number) => {
         if(count >= 1){
             document.getElementById('cart-no').style.visibility = "visible";
         }
-        else if(count <1){
-            document.getElementById('cart-no').style.visibility = "hidden";
-        }
+       
 
     })
     if(count < 0){
         return
+    }
+    if(count <1){
+        document.getElementById('cart-no').style.visibility = "hidden";
     }
     document.querySelector(".count").textContent = count;
 }
