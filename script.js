@@ -34,9 +34,6 @@ document.querySelector(".cart").addEventListener('click' , e=>{
   
 })
 
-window.addEventListener('click' , e=>{
-    
-    document.getElementById('CartboX').style.visibility = "hidden"
-   
+document.querySelector("#Close").addEventListener('click' , ()=>{
+    document.getElementById('CartboX').style.visibility="hidden"
 })
-

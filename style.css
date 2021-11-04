@@ -256,6 +256,8 @@ a:hover{
 }
 
 #Heading{
+    display: flex;
+    justify-content: space-between;
     
     font-size: 20px;
     font-family: var(--font-fam);
@@ -338,4 +340,8 @@ a:hover{
     border-style: none;
     border-radius: 18px;
     
+}
+#Close{
+    height: 10px;
+    cursor: pointer;
 }
