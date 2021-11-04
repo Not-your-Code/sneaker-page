@@ -27,3 +27,16 @@ changenum = (number) => {
 }
 
 
+document.querySelector(".cart").addEventListener('click' , e=>{
+ 
+    document.getElementById('CartboX').style.visibility="visible"
+    
+  
+})
+
+window.addEventListener('click' , e=>{
+    
+    document.getElementById('CartboX').style.visibility = "hidden"
+   
+})
+

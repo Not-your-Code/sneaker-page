@@ -233,3 +233,109 @@ a:hover{
     top: 7px;
     right: 108px;
 }
+#CartboX{
+    visibility: hidden;
+    box-shadow: -8px 18px 43px -7px rgba(0,0,0,0.69);
+    -webkit-box-shadow: -8px 18px 43px -7px rgba(0,0,0,0.69);
+    -moz-box-shadow: -8px 18px 43px -7px rgba(0,0,0,0.69);
+    height: 146px;
+    position: absolute;
+     width: 291px;
+    right: 94px;
+    top:48px;
+    background-color: white;
+    border-radius:16px ;
+    padding: 10px;
+
+}
+#Image{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    
+}
+
+#Heading{
+    
+    font-size: 20px;
+    font-family: var(--font-fam);
+    color: var(--dark-grayish-blue);
+    height: 35px;
+    border-bottom: 1px solid var(--Grayish-blue);
+}
+#CartItem{
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+#Delete{
+    height: 15px;
+    width: 15px;
+}
+#ItemNm
+{
+   font-family: var(--font-fam);    
+   font-size: 13px;
+   position: absolute;
+   top: 57px;
+   right: 45px;
+   color: var(--dark-grayish-blue);
+   border-bottom: 1px solid var(--Grayish-blue);
+
+}
+#Price{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction:row;
+ height: 30px;
+ width: 143px;
+ position: absolute;
+ top: 78px;
+ right :74px;
+ 
+}
+#PrIce{
+    font-family: var(--font-fam);
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+}
+#sign{
+    color: var(--dark-grayish-blue);
+    position: absolute;
+    right: 70px;
+    top: 4px;
+    font-family: var(--font-fam);
+}
+#NoItem{
+    font-family: var(--font-fam);
+    position: absolute;
+    right: 55px;
+    top: 4px;
+    color: var(--dark-grayish-blue);   
+}
+#MainPrice{
+    font-family:var(--font-fam);
+    font-weight: bold;
+    color: rgba(0, 0 ,0, 0.7);
+    position: absolute;
+    right: 29px;
+    top: -1px;
+    font-size: 23px;
+}
+#Btn{
+    visibility: hidden;
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: auto ;
+    height: 25px;
+    font-family: var(--font-fam);
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border-style: none;
+    border-radius: 18px;
+    
+}
