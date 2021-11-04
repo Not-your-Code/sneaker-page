@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 :root{
@@ -271,10 +272,12 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px 10px 0px;
+
 }
 #Delete{
     height: 15px;
     width: 15px;
+    cursor: pointer;
 }
 #ItemNm
 {
@@ -314,7 +317,7 @@ a:hover{
 #NoItem{
     font-family: var(--font-fam);
     position: absolute;
-    right: 55px;
+    right: 48px;
     top: 4px;
     color: var(--dark-grayish-blue);   
 }
@@ -323,11 +326,12 @@ a:hover{
     font-weight: bold;
     color: rgba(0, 0 ,0, 0.7);
     position: absolute;
-    right: 29px;
-    top: -1px;
-    font-size: 23px;
+    right: -27px;
+    top: 2px;
+    font-size: 18px;
 }
 #Btn{
+    cursor: pointer;
     visibility: hidden;
     border: 1px solid black;
     text-align: center;
