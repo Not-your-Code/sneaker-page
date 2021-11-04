@@ -349,3 +349,49 @@ a:hover{
     height: 10px;
     cursor: pointer;
 }
+.contleft{
+    
+    margin-top: 80px;
+    margin-right: 20px;
+    height: 400px;
+    width: 1474px ;
+    padding: 25px;
+}
+
+
+#Imgchoice{
+    cursor: pointer;
+    width: 400px;
+    position: absolute;
+    left: 165px;
+    top: 426px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid hsl(26, 100%, 55%);
+}
+#Imgchoice img{
+    height: 82px;
+    border-radius: 16px;
+    box-shadow: -5px 4px 19px -5px rgba(0,0,0,0.7);
+-webkit-box-shadow: -5px 4px 19px -5px rgba(0,0,0,0.7);
+-moz-box-shadow: -5px 4px 19px -5px rgba(0,0,0,0.7);
+}
+
+#Imgchoice img:hover{
+    border: 1px solid hsl(26, 100%, 55%);
+    
+    opacity: .8;
+    transition: 105ms ease;
+}
+#Thumb{
+    height: 256px;
+    width: 256px;
+    position: absolute;
+    left: 238px;
+    border-radius: 18px;
+    
+    
+}

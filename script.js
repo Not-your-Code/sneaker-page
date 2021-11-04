@@ -80,6 +80,38 @@ window.alert("Purchase Unsuccessfull")
 document.getElementById('Delete').addEventListener('click' , ()=>{
     document.querySelector("#Btn").style.visibility = "hidden"
     document.querySelector("#CartItem").style.visibility = "hidden"
- 
     document.querySelector("#cart-no").style.visibility = "hidden";
 }) 
+
+
+let img1 = document.getElementById('img1')
+let img2 = document.getElementById('img2')
+let img3 = document.getElementById('img3')
+let img4 = document.getElementById('img4')
+let thumbImg = document.getElementById('Thumb')
+
+img1.addEventListener('click' ,e=>{
+    
+    let source =img1.getAttribute('src')
+    thumbImg.setAttribute('src' , source)
+})
+img2.addEventListener('click' ,e=>{
+    
+    let source =img2.getAttribute('src')
+    thumbImg.setAttribute('src' , source)
+})
+
+img3.addEventListener('click' ,e=>{
+    
+    let source =img3.getAttribute('src')
+    thumbImg.setAttribute('src' , source)
+})
+
+img4.addEventListener('click' ,e=>{
+    
+    let source =img4.getAttribute('src')
+    thumbImg.setAttribute('src' , source)
+})
+
+
+window.alert("Try this webpage on Desktop for now  , will not look good on mobile ;-). There are some bugs in page too , will fix it ")
