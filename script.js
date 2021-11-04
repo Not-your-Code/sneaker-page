@@ -114,4 +114,4 @@ img4.addEventListener('click' ,e=>{
 })
 
 
-window.alert("Try this webpage on Desktop for now  , will not look good on mobile ;-). There are some bugs in page too , will fix it ")
+window.alert("Try this webpage on Desktop for now  , will not look good on mobile ;-). There are some bugs in page too , will fix it (CODED BY VINEET) ")
